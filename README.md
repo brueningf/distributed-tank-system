@@ -1,2 +1,2 @@
-# distributed-tank-system
+# Distributed Tank System
 IoT-based distributed tank monitoring and control system with real-time data visualization.
