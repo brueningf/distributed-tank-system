@@ -1,14 +1,16 @@
 # Distributed Tank System
 
-The Distributed Tank System is a modular IoT-based platform for monitoring and controlling multiple fluid tanks. This is a prototype system designed for research and educational purposes. It just happened to find a practical application in water tank management for a hotel/art installation.
-It consists of sensor/actuator nodes, a central controller, and a dashboard app. In this case, the application of the system was for water tanks, but the architecture is meant to be adaptable to other fluids and scenarios.
-The project was developed in the countryside of Peru, so it emphasizes low-cost, low-power components and wireless communication. Spanish may be used in some comments/documentation.
-Errors were made, and some design choices are suboptimal, so revisions were made along the way. Feel free to ask questions, or browse through the photos in docs/images for more context.
+The **Distributed Tank System** is a modular IoT platform for monitoring and controlling multiple fluid tanks.  
+Originally developed as a prototype for research and educational purposes, it has also been applied in practice to manage water tanks for a house installation.  
 
-The system is designed to be **scalable**: additional modules can be integrated, and the controller coordinates logic across the network.  
-The dashboard app provides real-time data visualization and debugging capabilities.
+The system consists of distributed **sensor/actuator nodes**, a **central controller**, and a **dashboard app**. While this implementation focuses on water management, the architecture is adaptable to other fluids and use cases.  
 
-Switching between automatic control, and manual mode is under development, along with further extensions (currently only automatic mode).
+Development took place in rural Peru, emphasizing **low-cost, low-power components** and **wireless communication**. Some documentation and comments may appear in Spanish.  
+
+The system is designed to be **scalable**: additional modules can be integrated, with the controller coordinating logic across the network. The dashboard app provides real-time data visualization and debugging.  
+
+Fancy control modes are under development, with automatic operation currently functional.
+Errors were made, and some design choices are suboptimal, so revisions were made along the way. Feel free to ask questions, or **browse through the photos in docs/images** for more context.
 
 ---
 
@@ -44,20 +46,28 @@ Communication between components is currently based on [Wi-Fi, HTTP].
 
 ## Photos
 
-- Base controller
-![Base Controller](docs/images/base1_working.jpeg)
-![Base Controller Schematic](docs/images/base-schematic-revised.jpeg)
-![RWI Schematic](docs/images/rwi-schematic2.jpeg)
+**Base controller**  
+![Base Controller](docs/images/base1_working.jpeg)  
+![Base Controller Schematic](docs/images/base-schematic-revised.jpeg)  
+![RWI Schematic](docs/images/rwi-schematic2.jpeg)  
 
-- Water system and sensors
-![Water System](docs/images/fluid-system-labeled.jpeg)
+**Water system and sensors**  
+![Water System](docs/images/fluid-system-labeled.jpeg)  
 
-- Example node  
-![REMST2](docs/images/remst2-working.jpeg)
-![REMST2](docs/images/remst2-schematic-revised.jpeg)
+**Example node**  
+![REMST2](docs/images/remst2-working.jpeg)  
+![REMST2 schematic](docs/images/remst2-schematic-revised.jpeg)  
 
-- Actual installation in Peru
-![Base Controller Installation](docs/images/installation1.jpeg)
+**Installation in Peru**  
+![Base Controller Installation](docs/images/installation1.jpeg) 
+
+---
+
+## Some videos
+
+[PCB assembly](https://youtube.com/shorts/jMC6awK2nHs)
+
+[REMST2 PCB layout](https://youtu.be/X4QR3ed8DRU)  
 
 ---
 
